@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family:'Swiss';
+    src: url('../swiss721-rounded-webfont.woff2') format('woff2'),
+         url('../swiss721-rounded-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    width: 100%;
+    height:100vh;
+    background-color:whitesmoke;
+    font-family:'Swiss';
+}
+
+
+
+.italique {
+    font-style: italic;
+    font-family:'Swiss'; font-size: 12px;
+    font-weight: 100;
+    
+}
+.categorie{
+    float: left;
+    width: 20%;
+    border-right: 1px solid black;
+    height:100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family:'Swiss';
+   
+}
+.categorie2{
+    float: left;
+    width: 20%;
+    border-right: 1px solid black;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-style:'Swiss';
+}
+
+.projet_image{
+    width: 100%;
+}
+
+img {
+    width:100%;
+    margin-bottom:1px;
+        
+    
+}
+video{
+    width:100%;
+    margin-bottom:1px;
+    
+}
+.titre{
+    font-family:'Swiss'; font-size: 12px;
+    font-weight: 700;
+    margin: 1px;
+    
+}
+.legende{
+    font-family:'Swiss'; font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    margin: 1px;
+}
+.explication{
+    font-family:'Swiss'; font-size: 12px;
+    margin: 1px;
+    text-align: center;
+    font-weight: 700;
+    
+}
+.extrait{
+    font-family:'Swiss'; font-size: 12px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.soustitre{
+    margin-left: 10px;
+    font-family: 'Swiss'; font-size: 12px;
+    font-weight: 700;
+}
+a{
+    font-family:'Swiss'; font-size: 12px;
+    margin-left: 80px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration-color: black;
+    color: black;
+    
+}
+a:visited {
+color: black;
+    text-decoration-color: black;
+}
